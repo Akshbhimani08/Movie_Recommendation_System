@@ -7,6 +7,7 @@ import requests
 import json
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+import os
 
 movies_list=pickle.load(open("movies.pkl","rb"))
 movies_list=pd.DataFrame(movies_list)
@@ -38,7 +39,7 @@ def movie_poster(title):
         url = "https://api.themoviedb.org/3/search/movie"
 
         params = {
-            "api_key": "469ff5f10c3bf122ecf3f5922da1f4ab",
+            "api_key": os.getenv("TMDB_API_KEY"),
             "query": title
         }
 
