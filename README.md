@@ -34,6 +34,9 @@ This project implements a **content-based filtering** recommendation engine that
 |:--------------:|:-------------------:|
 | Dropdown with full movie catalog | Poster grid with title, year, and tags |
 
+
+![Movie Recommendation System Demo](movie_demo.png)
+
 ---
 
 ## Project Structure
@@ -47,10 +50,6 @@ Movie_Recommendation_System/
 ├── requirements.txt        # Python dependencies
 └── .python-version         # Python version pin
 ```
-
-## 🖼️ Demo
-
-![Movie Recommendation System Demo](movie_demo.png)
 
 ---
 
