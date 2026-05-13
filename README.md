@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 
 > **Content-based movie recommender powered by sentence embeddings and cosine similarity, with a Streamlit web interface and live TMDB poster integration.**
 
@@ -9,13 +9,13 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project implements a **content-based filtering** recommendation engine that suggests movies similar to a user-selected title. Movie metadata is encoded into dense vector embeddings, and **cosine similarity** is used to rank and return the most semantically related films. A live Streamlit interface displays results as a visual poster grid enriched with metadata.
 
 ---
 
-## ✨ Features
+## Features
 
 - 🔍 **Embedding-based similarity** — tag/metadata vectors captured via sentence embeddings for richer semantic matching than keyword overlap
 - 🎞️ **Live poster fetching** — real-time TMDB API integration with graceful fallback for missing/unavailable images
@@ -26,7 +26,7 @@ This project implements a **content-based filtering** recommendation engine that
 
 ---
 
-## 🖼️ Demo
+## Demo
 
 | Select a Movie | Get Recommendations |
 |:--------------:|:-------------------:|
@@ -34,7 +34,7 @@ This project implements a **content-based filtering** recommendation engine that
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Movie_Recommendation_System/
@@ -48,7 +48,7 @@ Movie_Recommendation_System/
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 ```
 User selects a movie
@@ -81,7 +81,7 @@ top_indices = np.argsort(scores)[::-1][1:top_n+1]
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -108,7 +108,7 @@ streamlit run app.py
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -121,7 +121,7 @@ streamlit run app.py
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
@@ -135,26 +135,13 @@ API key is loaded via the `TMDB_API_KEY` environment variable — never hardcode
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Switch from pickle embeddings to a vector database (e.g., FAISS, ChromaDB) for scalability
 - [ ] Add collaborative filtering for hybrid recommendations
 - [ ] User ratings and watch history persistence
 - [ ] Deploy to Streamlit Community Cloud / Hugging Face Spaces
 - [ ] Support for TV shows and anime via extended TMDB endpoints
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♂️ Author
-
-**Aksh Bhimani**  
-[GitHub](https://github.com/Akshbhimani08) · [LinkedIn](#)
 
 ---
 
