@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-> **Content-based movie recommender powered by sentence embeddings and cosine similarity, with a Streamlit web interface and live TMDB poster integration.**
+> ** A Machine Learning based movie recommender powered by sentence embeddings and cosine similarity, with a Streamlit web interface and live TMDB poster integration.**
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
@@ -19,12 +19,12 @@ This project implements a **content-based filtering** recommendation engine that
 
 ## Features
 
-- 🔍 **Embedding-based similarity** — tag/metadata vectors captured via sentence embeddings for richer semantic matching than keyword overlap
-- 🎞️ **Live poster fetching** — real-time TMDB API integration with graceful fallback for missing/unavailable images
-- ⚡ **Cached API calls** — `@st.cache_data` prevents redundant network requests and speeds up repeated lookups
-- 🔁 **Resilient HTTP layer** — automatic retry with exponential backoff for transient API failures (429, 5xx)
-- 🎛️ **Configurable results** — users choose how many recommendations to display (1–20)
-- 📱 **Responsive grid layout** — results rendered in a 3-column card grid with title, release year, and tags
+- **Embedding-based similarity** — tag/metadata vectors captured via sentence embeddings for richer semantic matching than keyword overlap
+- **Live poster fetching** — real-time TMDB API integration with graceful fallback for missing/unavailable images
+- **Cached API calls** — `@st.cache_data` prevents redundant network requests and speeds up repeated lookups
+- **Resilient HTTP layer** — automatic retry with exponential backoff for transient API failures (429, 5xx)
+- **Configurable results** — users choose how many recommendations to display (1–20)
+- **Responsive grid layout** — results rendered in a 3-column card grid with title, release year, and tags
 
 ---
 
