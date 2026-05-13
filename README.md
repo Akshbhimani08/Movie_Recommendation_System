@@ -48,6 +48,10 @@ Movie_Recommendation_System/
 └── .python-version         # Python version pin
 ```
 
+## 🖼️ Demo
+
+![Movie Recommendation System Demo](movie_demo.png)
+
 ---
 
 ## How It Works
