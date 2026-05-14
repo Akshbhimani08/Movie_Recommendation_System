@@ -1,6 +1,6 @@
 # Movie Recommendation System
 
-> ** A Machine Learning based movie recommender powered by sentence embeddings and cosine similarity, with a Streamlit web interface and live TMDB poster integration.**
+> A Machine Learning based movie recommender powered by sentence embeddings and cosine similarity, with a Streamlit web interface and live TMDB poster integration.
 
 [![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://streamlit.io/)
