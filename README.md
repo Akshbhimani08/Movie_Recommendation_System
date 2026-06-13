@@ -17,6 +17,12 @@ This project implements a **content-based filtering** recommendation engine that
 
 ---
 
+## Live Demo(Linkedin post)
+
+-> [Click here to view the live working & project's url](https://www.linkedin.com/feed/update/urn:li:activity:7429752733701828608/)
+
+---
+
 ## Features
 
 - **Embedding-based similarity** — tag/metadata vectors captured via sentence embeddings for richer semantic matching than keyword overlap
